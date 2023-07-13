@@ -61,7 +61,7 @@ function alterarImagemTimeSelecionado(time) {
     const imagemTimeGrande = document.querySelector('.time-grande');
     // passo 2 - alterar a imagem do personagem grande
     const idTime = time.attributes.id.value;
-    imagemTimeGrande.src = `./src/imagens/${idTime}.png`
+    imagemTimeGrande.src = `./src/imagens/card-${idTime}.png`
 }
 
 function removerSelecaoDoTime() {
