@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Times Do Brasileirão</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css"> 
+</head>
+<body>
+    <header class="cabecalho">
+       <img src="./src/imagens/logo-brasileirao-2048 1.png" alt="Logo Brasileirao A"> 
+    </header>
+    <main class="selecao-de-times">
+        <section class="times">
+            <h1 class="titulo"> Selecione seu time </h1>
+            <ul class="lista-de-times">
+                <li class="time selecionado" id="flamengo" data-name="" data-discription=""><img src="./src/imagens/flamengo 1.png"  alt="Time Regatas Flamengo"></li>
+                <li class="time" id="Corinthians" data-name="Corinthians" data-discription="Sport Club Corinthians Paulista é um clube poliesportivo brasileiro da cidade de São Paulo, capital do estado de São Paulo."><img src="./src/imagens/corinthians 1.png"   alt="Clube Corinthians"></li>
+                <li class="time" id="Fluminense" data-name="Fluminense" data-discription="Fluminense Football Club, é uma agremiação poliesportiva e cultural sediada no bairro de Laranjeiras, Zona Sul da cidade do Rio de Janeiro, no Brasil."><img src="./src/imagens/fluminense 1 (2).png"  alt="Fluminense Football Club"></li>
+                <li class="time" id="Botafogo" data-name="Botafogo" data-discription="Botafogo de Futebol e Regatas é uma agremiação poliesportiva brasileira, com sede no bairro homônimo ao clube, na cidade do Rio de Janeiro. "><img src="./src/imagens/botafogo 1.png"  alt="Botafogo de Futebol e Regatas "></li>
+                <li class="time" id="Sao-paulo" data-name="Sao-paulo" data-discription="São Paulo Futebol Clube é um clube poliesportivo brasileiro da cidade de São Paulo, capital do estado homônimo. "><img src="./src/imagens/sao-paulo 1.png"   alt="São Paulo Futebol Clube"></li>
+                <li class="time" id="Atletico" data-name="Atletico" data-discription="O Clube Atlético Mineiro é um clube brasileiro de futebol sediado na cidade de Belo Horizonte, Minas Gerais."><img src="./src/imagens/atletico-mineiro 1.png"  alt="Atletico-mineiro"></li>
+                <li class="time" id="Palmeiras" data-name="Palmeiras" data-discription="A Sociedade Esportiva Palmeiras, mais conhecida como Palmeiras, é um clube de futebol profissional brasileiro com sede na cidade de São Paulo, no distrito de Perdizes."><img src="./src/imagens/palmeiras 1.png"  alt="Sociedade Esportiva Palmeiras"></li>
+                <li class="time" id="Santos" data-name="Santos" data-discription="O Santos Futebol Clube, mais conhecido como Santos, é um clube poliesportivo brasileiro, com sede em Santos, é considerado um dos maiores clubes da história do futebol mundial."><img src="./src/imagens/santos 1 (2).png" alt="Clube Santos"></li>
+            </ul>
+        </section>
+        <section class="time-selecionado">
+             <img class="time-grande" src="./src/imagens/card-flamengo.png" alt="Time Selecionado">
+
+            <div class="informacoes-do-time">
+                <h2 class="nome-time" id="nome-time"> Clube Regatas Flamengo </h2>
+                <p class="descricao-time" id="discricao-time">O Clube de Regatas do Flamengo é uma agremiação poliesportiva brasileira com sede na cidade do Rio de Janeiro, capital do estado homônimo.
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
