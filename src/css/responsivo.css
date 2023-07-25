@@ -1,4 +1,4 @@
-@media (max-width: 1120px) {
+@media (max-width: 768px) {
     .cabecalho .logo {
         max-width: 190px;
     }
@@ -26,13 +26,17 @@
     }
 
     .time-selecionado .time-grande {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 250px;
     }
 
     .time-selecionado .descricao-time {
         width: 80%;
         font-size: 16px;
         margin: 20px auto;
+    }
+
+    body::before {
+        height: 1000px;
     }
 }
